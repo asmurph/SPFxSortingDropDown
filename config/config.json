@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-fx-sorting-a-drop-down-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spFxSortingADropDown/SpFxSortingADropDownWebPart.js",
+          "manifest": "./src/webparts/spFxSortingADropDown/SpFxSortingADropDownWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpFxSortingADropDownWebPartStrings": "lib/webparts/spFxSortingADropDown/loc/{locale}.js"
+  }
+}
